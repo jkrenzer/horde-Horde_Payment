@@ -1,0 +1,538 @@
+# translation of payment_sl_SI.po to Slovene
+# Slovenian translations for Horde_Payment packaga
+# Slovenski prevod Horde_Payment paketa
+# Copyright 2006-2009 The Horde Project
+# This file is distributed under the same license as the horde package.
+#
+# Automatically generated, 2006.
+# Marko Milost <marko.milost@obala.si>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: payment_sl_SI\n"
+"Report-Msgid-Bugs-To: dev@lists.horde.org\n"
+"POT-Creation-Date: 2009-02-03 18:52+0100\n"
+"PO-Revision-Date: 2007-02-27 17:44+0100\n"
+"Last-Translator: Marko Milost <marko.milost@obala.si>\n"
+"Language-Team: Slovene <sl@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+
+#: admin/config.php:110 admin/setup.php:105
+#, php-format
+msgid "%s Setup"
+msgstr "%s Nastavitve"
+
+#: templates/authorizations/list/header.inc:5
+msgid "Action"
+msgstr "Ukazi"
+
+#: admin/add.php:24
+msgid "Add a testing authorization"
+msgstr "Dodaj testno avtorizacijo"
+
+#: lib/Payment.php:316
+msgid "Add testing"
+msgstr "Dodaj testno"
+
+#: lib/Methods/Proforma/Proforma.php:89
+msgid "Address: "
+msgstr "Naslov: "
+
+#: lib/api.php:69
+msgid "Admin"
+msgstr ""
+
+#: templates/authorizations/list/header.inc:9 authorizations/list.php:46
+#: admin/add.php:36 lib/Form/Data.php:51
+msgid "Amount"
+msgstr "Vrednost"
+
+#: templates/admin/setup.html:5
+msgid "Application"
+msgstr "Aplikacija"
+
+#: lib/api.php:71
+msgid "Applications"
+msgstr "Aplikacije"
+
+#: authorizations/delete.php:46
+msgid "Are you sure to delete this authorization?"
+msgstr "Resnično želite pobrisati izbrano avtentikacijo?"
+
+#: process/revoke.php:29
+msgid "Are you sure to revoke this order?"
+msgstr "Resnično želite preklicati izbrano naročilo?"
+
+#: authorizations/void.php:39
+msgid "Are you sure to void this authorization?"
+msgstr "Resnično želite preklicati izbrano avtentikacijo?"
+
+#: templates/authorizations/details/header.inc:4
+msgid "Attribute"
+msgstr "Atribut"
+
+#: authorizations/delete.php:69
+#, php-format
+msgid "Authorization \"%s\" from module \"%s\" was not deleted."
+msgstr "Avtorizacija \"%s\" v aplikaciji \"%s\" ni bila izbrisana."
+
+#: authorizations/void.php:62
+#, php-format
+msgid "Authorization \"%s\" from module \"%s\" was not voided."
+msgstr "Avtorizacija \"%s\" v aplikaciji \"%s\" ni bila preklicana."
+
+#: authorizations/delete.php:67
+#, php-format
+msgid "Authorization \"%s\" from module \"%s\" was successfully deleted."
+msgstr "Avtorizacija \"%s\" v aplikaciji \"%s\" je bila izbrisana."
+
+#: authorizations/void.php:60
+#, php-format
+msgid "Authorization \"%s\" from module \"%s\" was successfully voided."
+msgstr "Avtorizacija \"%s\" v aplikaciji \"%s\" je bila preklicana."
+
+#: lib/Payment.php:116
+msgid "Authorization already voided."
+msgstr "Avtorizacija je bila že zavrnjena."
+
+#: authorizations/delete.php:56
+msgid "Authorization was not deleted."
+msgstr "Avtorizacija ni bila izbrisana."
+
+#: authorizations/void.php:49
+msgid "Authorization was not voided."
+msgstr "Avtorizacija ni bila preklicana."
+
+#: authorizations/list.php:38 lib/Payment.php:311
+msgid "Authorizations"
+msgstr "Avtorizacije"
+
+#: process/revoke.php:32 process/revoke.php:42 authorizations/delete.php:49
+#: authorizations/delete.php:55 authorizations/void.php:42
+#: authorizations/void.php:48
+msgid "Cancel"
+msgstr "Prekliči"
+
+#: lib/Methods/COD/COD.php:25
+msgid "Cash on delivery"
+msgstr "Plačilo po prevzetju"
+
+#: process/step1.php:32 process/step1.php:42 process/error.php:32
+msgid "Change payment method"
+msgstr "Spremenite način plačila"
+
+#: templates/admin/config.html:10
+msgid "Configuration"
+msgstr "Nastavitve"
+
+#: admin/setup.php:90
+msgid "Configuration is out of date."
+msgstr "Nastavitve so zastarele."
+
+#: admin/setup.php:62
+#, php-format
+msgid "Configure %s"
+msgstr "Nastavite %s"
+
+#: admin/config.php:129
+msgid "Could not revert configuration."
+msgstr "Ne morem poverniti nastavitve."
+
+#: admin/config.php:138
+#, php-format
+msgid "Could not save the backup configuration file %s."
+msgstr "Ne morem shraniti varnostne koopje %s."
+
+#: admin/config.php:151
+#, php-format
+msgid ""
+"Could not save the configuration file %s. You can either use one of the "
+"options to save the code back on %s or copy manually the code below to %s."
+msgstr ""
+"Ne morem shraniti nastavitvene datoteke %s. Lahjo uporabite eno od "
+"možnostiza shranitev daoteke na %s ali jo shranite sami na naslov %s"
+
+#: lib/Methods/Proforma/Proforma.php:93
+msgid "Country: "
+msgstr "Država: "
+
+#: templates/authorizations/list/header.inc:10
+msgid "Created"
+msgstr "Ustvarjeno"
+
+#: authorizations/list.php:61
+msgid "Date from"
+msgstr "Datum od"
+
+#: authorizations/list.php:62
+msgid "Date to"
+msgstr "Datum do"
+
+#: config/prefs.php.dist:10
+msgid "Default payment details"
+msgstr "Osnovni način plačila"
+
+#: authorizations/delete.php:49
+msgid "Delete"
+msgstr "Izbriši"
+
+#: templates/authorizations/list/row.inc:13
+#: templates/authorizations/list/row.inc:14
+#, php-format
+msgid "Delete %s"
+msgstr "Izbriši %s"
+
+#: templates/authorizations/list/row.inc:9
+#: templates/authorizations/list/row.inc:10 authorizations/details.php:44
+#, php-format
+msgid "Details for %s"
+msgstr "Podrobnosti o %s"
+
+#: process/enter.php:19
+msgid "Enter order ID"
+msgstr "Vnesite referenčno številko"
+
+#: lib/Payment.php:43
+msgid "Error"
+msgstr "Napaka"
+
+#: lib/Methods/Proforma/Proforma.php:87
+msgid "First name: "
+msgstr "Ime: "
+
+#: admin/config.php:117
+#, php-format
+msgid "Generate %s Configuration"
+msgstr "Ustvarite nastavitve za %s"
+
+#: templates/admin/config.html:7
+msgid "Generated Code"
+msgstr "Tvorjena koda"
+
+#: templates/authorizations/list/header.inc:7
+msgid "ID"
+msgstr "ID"
+
+#: lib/Driver/sql.php:189
+#, php-format
+msgid "ID \"%s\" already exists in \"%s\""
+msgstr "ID \"%s\" že obstaja v \"%s\""
+
+#: lib/Methods/Proforma/Proforma.php:88
+msgid "Last name: "
+msgstr "Priimek: "
+
+#: admin/matrix.php:24
+msgid "Link applications to payment methods"
+msgstr "Povežite načine plačil z aplikacijami"
+
+#: admin/matrix.php:57
+msgid "Links updated."
+msgstr "Povezave so bile ažurirane."
+
+#: lib/Payment.php:315
+msgid "Matrix"
+msgstr "Matrica"
+
+#: templates/authorizations/list/header.inc:13 authorizations/list.php:60
+msgid "Method"
+msgstr "Način"
+
+#: admin/setup.php:95
+msgid "Method is ready."
+msgstr "Metoda je pripravljena."
+
+#: admin/setup.php:70
+msgid "Missing configuration. You must generate it before using this method."
+msgstr ""
+"Nastavitvena datoteka ne obstaja. Tvoriti jo morate pred njeno uporabo."
+
+#: templates/authorizations/list/header.inc:6 authorizations/list.php:43
+#: admin/add.php:34 lib/Form/Data.php:39
+msgid "Module"
+msgstr "Aplikacija"
+
+#: authorizations/list.php:44 admin/add.php:35
+msgid "Module ID"
+msgstr "Referenca"
+
+#: lib/Payment.php:229 lib/api.php:94
+msgid "No methods available."
+msgstr "Ni dostopnih načinov plačila."
+
+#: lib/Driver/sql.php:88
+#, php-format
+msgid "No transaction \"%s\" found"
+msgstr "Ne najdem tranzakcije \"%s\""
+
+#: admin/setup.php:75
+msgid "No version found in original configuration. Regenerate configuration."
+msgstr "Ni podane verzije v privzetih nastavitvah. Ponovno tvorite nastavitve."
+
+#: admin/setup.php:83
+msgid "No version found in your configuration. Regenerate configuration."
+msgstr "Ni podane verzije v vaših nastavitvah. Ponovno tvorite nastavitve."
+
+#: lib/Method.php:129
+msgid "Not supported."
+msgstr "Ni podprto"
+
+#: authorizations/delete.php:23 lib/Driver/sql.php:102
+msgid "Only administrators can delete authorization requests."
+msgstr "Samo administratori lahko brišejo avtorizacije."
+
+#: process/enter.php:24 authorizations/list.php:45 lib/Form/Data.php:36
+msgid "Order ID"
+msgstr "Naročilo številka"
+
+#: process/step2.php:57
+#, php-format
+msgid "Order status was chagned to: %s"
+msgstr "Status plačila je bil spremenjan na: %s"
+
+#: process/revoke.php:62
+msgid "Order successly revoked."
+msgstr "Plačilo je bilo uspešno preklicano."
+
+#: process/revoke.php:43
+msgid "Order was not revoked."
+msgstr "Naročilo ni bilo preklicano."
+
+#: lib/Method.php:173
+#, php-format
+msgid "Payment Method \"%s\" do not exists."
+msgstr "Način plačila \"%s\" ne obstja."
+
+#: config/prefs.php.dist:9
+msgid "Payment detilas"
+msgstr "Podrobnosti plačila"
+
+#: process/step2.php:60 process/index.php:75
+msgid "Payment method"
+msgstr "Način plačila"
+
+#: lib/Payment.php:31 lib/api.php:110
+msgid "Pending"
+msgstr "Na čakanju"
+
+#: process/step1.php:29
+#, php-format
+msgid "Please enter addtional data for: %s"
+msgstr "Prosim vnesite dodatne informacije za: %s"
+
+#: process/error.php:29
+msgid "Please try again..."
+msgstr "Poskusite znova..."
+
+#: lib/Methods/Proforma/Proforma.php:90
+msgid "Postal code: "
+msgstr "Poštna številka: "
+
+#: process/step1.php:32 process/index.php:74 process/enter.php:22
+#: process/error.php:32
+msgid "Proceed"
+msgstr "Nadaljuj"
+
+#: admin/add.php:37 lib/Payment.php:307
+msgid "Process"
+msgstr "Procesiraj"
+
+#: process/step_check.php:23
+msgid "Process id was lost."
+msgstr "ID naročila je bil izgubljen."
+
+#: templates/methods/Proforma/bill.inc:7
+#: templates/methods/Proforma/bill.php:72
+msgid "Proforma"
+msgstr "Plačilo predračuna"
+
+#: lib/Methods/Proforma/Proforma.php:25
+msgid "Proforma Bill"
+msgstr "Plačini nalog ali položnica"
+
+#: templates/authorizations/list/header.inc:8 lib/Form/Data.php:46
+msgid "Reference"
+msgstr "Referenca"
+
+#: process/step2.php:61
+#, php-format
+msgid "Return to %s"
+msgstr "Vrni se v %s"
+
+#: admin/config.php:120 admin/config.php:124
+msgid "Revert Configuration"
+msgstr "Prekliči nastavitve"
+
+#: process/index.php:74 process/index.php:87 process/revoke.php:32
+msgid "Revoke"
+msgstr "Prekliči naročilo"
+
+#: lib/Payment.php:34 lib/api.php:111
+msgid "Revoked"
+msgstr "Preklicano"
+
+#: authorizations/list.php:41
+msgid "Search"
+msgstr "Najdi"
+
+#: authorizations/list.php:40
+msgid "Search authorizations"
+msgstr "Najdi avtorizacije"
+
+#: process/index.php:70
+msgid "Select payment method"
+msgstr "Izberite način plačila"
+
+#: process/index.php:79
+msgid "Set this payment as default?"
+msgstr "Si zapomnim način plačila?"
+
+#: config/prefs.php.dist:11
+msgid "Set your default pamyent method."
+msgstr "Izberite priljubljen način plačila"
+
+#: admin/config.php:151
+msgid "Setup"
+msgstr "Nastavitve"
+
+#: lib/Payment.php:317
+msgid "Setup methods"
+msgstr "Nastavite metode"
+
+#: admin/setup.php:36
+msgid "Setup payment methods"
+msgstr "Nastavite načine plačila"
+
+#: config/countries.php.dist:11
+msgid "Slovenia"
+msgstr "Slovenija"
+
+#: process/enter.php:27 process/revoke.php:35
+msgid "Spam protection"
+msgstr "Zaradi varnosti vas prosimo da vnesete sledeče besedilo"
+
+#: templates/authorizations/list/header.inc:12 authorizations/list.php:55
+#: templates/admin/setup.html:11
+msgid "Status"
+msgstr "Status"
+
+#: admin/add.php:27
+msgid "Submit"
+msgstr "Pošlji"
+
+#: lib/Payment.php:37 lib/api.php:112
+msgid "Successful"
+msgstr "Uspešno"
+
+#: admin/config.php:126
+msgid "Successfully reverted configuration."
+msgstr "Nastavitve so bile uspešno shranjene."
+
+#: admin/config.php:136
+#, php-format
+msgid "Successfully saved the backup configuration file %s."
+msgstr "Uspešno povrnjene nastavitve iz datoteke %s."
+
+#: admin/config.php:145
+#, php-format
+msgid "Successfully wrote %s"
+msgstr "Uspešno zapisan %s"
+
+#: admin/add.php:45
+#, php-format
+msgid "Testing authorization addad with ID %s"
+msgstr "Testna avtorizacija je bila dodana z ID %s"
+
+#: process/index.php:32
+#, php-format
+msgid "The order id was voided by the seller."
+msgstr "Naročilo je bilo preklicano s strani prodajalca."
+
+#: admin/matrix.php:36
+msgid "There are no application to be linked to the payment system"
+msgstr "Ni aplikacij, ki bi jih lahko povezali s tem plačilnim sistemom"
+
+#: authorizations/list.php:74
+msgid "There are no authorizations for the selected criteria."
+msgstr "Ni avtorizacij za izbrane kriterije."
+
+#: admin/config.php:154
+msgid ""
+"There was an error in the configuration form. Perhaps you left out a "
+"required field."
+msgstr "Prišlo je od napake pri formi. Morda ste pozabili zahtevana polja."
+
+#: lib/Methods/Proforma/Proforma.php:70
+msgid ""
+"This payment method is available only for customers or deliveries to the "
+"listing countries. If your country is not listed, please use another payment "
+"method."
+msgstr ""
+"Izbran način plačila je možen le za nakupe in dostave iz navedenih držav. Če "
+"vaše države ni v spisku, vas prosimo, da izberete drugi način plačila."
+
+#: lib/Methods/Proforma/Proforma.php:91
+msgid "Town: "
+msgstr "Kraj: "
+
+#: templates/authorizations/list/header.inc:11
+msgid "Updated"
+msgstr "Ažurirano"
+
+#: templates/authorizations/details/header.inc:5
+msgid "Value"
+msgstr "Vrednost"
+
+#: authorizations/void.php:42 lib/Payment.php:40 lib/api.php:113
+msgid "Void"
+msgstr "Zavrnjena"
+
+#: templates/authorizations/list/row.inc:5
+#: templates/authorizations/list/row.inc:6
+#, php-format
+msgid "Void %s"
+msgstr "Prekliči %s"
+
+#: process/step_check.php:30
+msgid "We lost your position."
+msgstr "Izgubili smo vaše trenutno pozicijio."
+
+#: lib/Methods/Proforma/Proforma.php:29
+msgid ""
+"We will issue you a proforma bill which can be paid on you e-bank or on your "
+"nearest post or bank office."
+msgstr ""
+"Kupnino boste poravnali preko položnice. Izpisali vam bomo plačilni nalog "
+"katerega boste lahko poravnali preko vaše internet banke, poslovalnice banke "
+"ali pošte."
+
+#: authorizations/delete.php:39
+#, php-format
+msgid "You don't have permission to delete authorizations in %s."
+msgstr "Nimate pravic za izbris avtentikacij v %s."
+
+#: authorizations/details.php:30
+#, php-format
+msgid "You don't have permission to read attributes in %s."
+msgstr "Nimate pravic za prebiranje avtentikacij v %s."
+
+#: authorizations/void.php:32
+#, php-format
+msgid "You don't have permission to void authorizations in %s."
+msgstr "Nimate pravic preklic avtentikacij %s."
+
+#: lib/Payment.php:111
+msgid "You don't have the permission void a request."
+msgstr "Nimate pravic za zavrnitve avtorizacij."
+
+#: lib/Methods/COD/COD.php:29
+msgid ""
+"You will pay our goods in cash immediately when you will receive it to the "
+"postman."
+msgstr "Kupnino boste poravnali poštnemu uslužbencu pri prevzemu pošiljke."
+
+#: lib/Methods/Proforma/Proforma.php:92
+msgid "state: "
+msgstr "Pokrajina: "

@@ -1,0 +1,19 @@
+<?php
+/**
+ * Default Module Configuration File
+ *
+ * $Horde: incubator/Horde_Payment/lib/Methods/COD/conf.php.dist,v 1.2 2009/01/28 11:34:53 duck Exp $
+ */
+
+// True if the module is active.
+$conf['general']['active'] = true;
+
+// The minimal authorization amount which is possible to use this method with. (0 = no limit)
+$conf['general']['minimum'] = 0;
+
+// The maximum authorization amount which is possible to use this method with. (0 = no limit)
+$conf['general']['maximum'] = 0;
+
+// List customer countries from which is possible to use this method.
+$conf['general']['countries'] = array();
+

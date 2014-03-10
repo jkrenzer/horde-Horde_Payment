@@ -1,0 +1,23 @@
+<?php
+/**
+ * $Horde: incubator/Horde_Payment/config/prefs.php.dist,v 1.2 2006/10/01 15:24:56 duck Exp $
+ *
+ * See horde/config/prefs.php for documentation on the structure of this file.
+ */
+
+$prefGroups['Payments'] = array(
+    'column' => _("Payment detilas"),
+    'label' => _("Default payment details"),
+    'desc' => _("Set your default pamyent method."),
+    'members' => array('default_payment', 'default_app')
+);
+
+$_prefs['default_payment'] = array(
+    'value' => 'Proforma',
+    'type' => 'implicit'
+);
+
+$_prefs['default_app'] = array(
+    'value' => 'horde',
+    'type' => 'implicit'
+);

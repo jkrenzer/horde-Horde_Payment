@@ -1,0 +1,11 @@
+<?php
+/**
+ * The ISO-3166 country list.
+ *
+ * $Horde: incubator/Horde_Payment/config/countries.php.dist,v 1.1 2006/09/27 17:51:51 chuck Exp $
+ *
+ * @package Horde_NLS
+ */
+
+$countries = array(
+    'SI' => _("Slovenia"));

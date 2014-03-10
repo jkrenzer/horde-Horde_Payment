@@ -1,0 +1,1 @@
+<?php define('HORDE_PAYMENT_METHOD_COD_VERSION', '0.1-cvs') ?>

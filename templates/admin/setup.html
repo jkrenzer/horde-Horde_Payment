@@ -1,0 +1,31 @@
+<table class="striped" cellspacing="0" width="100%">
+ <thead>
+  <tr>
+    <td class="header">
+      <gettext>Application</gettext>
+    </td>
+    <td class="header">
+      &nbsp;
+    </td>
+    <td class="header">
+      <gettext>Status</gettext>
+    </td>
+  </tr>
+ </thead>
+ <tbody>
+  <loop:methods>
+  <tr>
+    <td>
+      <tag:methods.name />
+      <tag:methods.version />
+    </td>
+    <td align="center">
+      <tag:methods.conf />
+    </td>
+    <td>
+      <tag:methods.status />
+    </td>
+  </tr>
+  </loop:methods>
+ </tbody>
+</table>

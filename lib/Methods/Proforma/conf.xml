@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!-- $Horde: incubator/Horde_Payment/lib/Methods/Proforma/conf.xml,v 1.4 2006/10/17 16:58:35 duck Exp $ -->
+<configuration>
+  
+  <configsection name="general">
+    <configheader>General Settings</configheader>
+    <configboolean name="active" desc="True if the module is
+                   active.">true</configboolean>
+    <configinteger name="minimum" desc="The minimal authorization amount which
+                   is possible to use this method with. (0 = no limit)">0</configinteger>
+    <configinteger name="maximum" desc="The maximum authorization amount which
+                   is possible to use this method with. (0 = no limit)">0</configinteger>
+    <configlist name="countries" desc="List customer countries from which is
+                possible to use this method with." required="false"></configlist>
+  </configsection>
+  
+  <configsection name="proforma">
+    <configheader>Proforma details</configheader>
+    <configstring name="company" desc="Company name.">Obala d.o.o.</configstring>
+    <configstring name="address" desc="Company address.">Kampel 1k</configstring>
+    <configstring name="town" desc="Company town.">6000 Koper</configstring>
+    <configstring name="account" desc="Company account.">02236-0254303395</configstring>
+    <configstring name="font" desc="Fount used.">5</configstring>
+    <configboolean name="state" desc="Request user state data?">false</configboolean>
+    <configboolean name="country" desc="Request user country data?">false</configboolean>
+  </configsection>
+  
+</configuration>

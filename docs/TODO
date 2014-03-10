@@ -1,0 +1,9 @@
+================================
+ Payment Development TODO List
+================================
+
+:Last update:   $Date: 2007/04/22 04:50:38 $
+:Revision:      $Revision: 1.3 $
+
+- Implement order handling
+- Study a cleaner way to pass attributes between selling and payment app

@@ -1,0 +1,1 @@
+<?php define('HORDE_PAYMENT_METHOD_PROFORMA_VERSION', '0.1-cvs') ?>
